@@ -1,0 +1,29 @@
+h1{
+    color: rgb(77, 0, 128);
+}
+body{
+    padding: 20px;
+    background-color: rgb(211, 216, 253);
+}
+
+.li{
+    list-style-type:none;
+    padding:20px;
+    border-bottom: black solid 1px ;
+}
+#container{ 
+    padding-right: 40px;
+    margin: auto;
+    max-width: 500px;
+    border: rgb(77, 0, 128) solid 1px;
+    background-color: rgb(255, 255, 255);
+}
+#headerAndInputs{
+    text-align: center;
+}
+.delete{
+    padding: 0px 4px;
+    margin-left:420px;
+    border: solid rgb(184, 4, 255) 1px;
+    color : rgb(88, 1, 114);
+}
