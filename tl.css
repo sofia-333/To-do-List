@@ -16,6 +16,7 @@ body{
     margin: auto;
     max-width: 500px;
     border: rgb(77, 0, 128) solid 1px;
+    border-radius: 15px ;
     background-color: rgb(255, 255, 255);
 }
 #headerAndInputs{

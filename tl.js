@@ -64,6 +64,7 @@ function addToList(e){
     newTodo.addEventListener('change', function(e){
         if(this.checked){
             let parentList = e.target.parentElement;
+            //get label of checked todo
             let textOfchecked = parentList.getElementsByTagName('label')[0];
             textOfchecked.style.textDecoration = 'line-through';
             textOfchecked.style.color = 'gray';
