@@ -1,22 +1,3 @@
-/*var inputTodo = document.getElementById('inputTodo');
-inputTodo.value = "";
-
-var addButton = document.getElementById('add');
-
-var ul = document.getElementsByTagName('ul')[0];
-
-addButton.addEventListener('click',
-    function(e){
-        var todo = document.createElement('li');
-        todo.classList.add('li');
-        todo.innerText = inputTodo.value;
-        ul.prepend(todo);
-        document.getElementById('inputTodo').value = "";
-
-        var clearButton = document.createElement('input');
-        var todo = document.createElement('li');
-    }
-);*/
 var inputTodo = document.getElementById('inputTodo');
 //clearing input after refreshing:
 inputTodo.value = "";
@@ -82,13 +63,3 @@ function addToList(e) {
   });
 
 }
-
-// var delButtonsList = document.querySelectorAll('.delete');
-
-// delButtonsList.forEach( button => {
-//     button.addEventListener('click', function(e){
-//         var parentList = e.target.parentElement;
-//         console.log(parentList);
-//     });
-// });
-
